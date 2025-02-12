@@ -1,4 +1,4 @@
 output "azad_app_password" {
-  value     = azuread_application_password.aad_app_password
+  value     = azuread_service_principal_password.aad_sp_password
   sensitive = true
 }
