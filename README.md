@@ -1,2 +1,2 @@
-# tf-az-module-azuread-service-principal-password
-Terraform Module for creating a Service Principal Password
+# tf-az-module-azuread-application-password
+Terraform module to create an Azure AD application password
