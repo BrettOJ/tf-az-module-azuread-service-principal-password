@@ -15,12 +15,6 @@ variable "end_date" {
   default     = null
 }
 
-variable "end_date_relative" {
-  description = "A relative duration for which the password is valid until, for example 240h (10 days) or 2400h30m."
-  type        = string
-  default     = null
-}
-
 variable "rotate_when_changed" {
   description = "A map of arbitrary key/value pairs that will force recreation of the password when they change."
   type        = map(string)

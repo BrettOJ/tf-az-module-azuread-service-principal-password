@@ -16,6 +16,12 @@ variable "start_date" {
     default     = null
 }
 
+variable "rotation_days" {
+    description = "The number of days after which the password will be automatically rotated."
+    type        = number
+    default     = null
+}
+
 # variables file to the module
 variable "display_name" {
   description = "The display name for the application."
