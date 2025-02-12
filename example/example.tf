@@ -46,7 +46,6 @@ module "azuread_application_password" {
     service_principal_id     = module.azuread_service_principal.azad_sp_output.id
     display_name       = var.display_name
     end_date           = var.end_date
-    end_date_relative = var.end_date_relative
     start_date         = var.start_date
     rotation_days      = var.rotation_days
   }

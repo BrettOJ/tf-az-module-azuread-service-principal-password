@@ -4,12 +4,6 @@ variable "end_date" {
     default     = null
 }
 
-variable "end_date_relative" {
-    description = "A relative duration for which the password is valid until, for example 240h (10 days) or 2400h30m."
-    type        = string
-    default     = null
-}
-
 variable "start_date" {
     description = "The start date from which the password is valid, formatted as an RFC3339 date string."
     type        = string
